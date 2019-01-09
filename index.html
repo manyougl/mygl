@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>湖北漫游国旅</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Walkabout Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery.min.js"></script>
+<!--start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<!--start-smoth-scrolling-->
+<!--pop-up-box-->
+<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>  
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	 <script>
+			$(document).ready(function() {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});																
+			});
+	</script>	
+	<!--pop-up-box-->
+<!--script-->
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: '600px', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+				
+</script>	
+<!--script-->
+				
+</script>	
+</head>
+<body>
+	<!--header-starts-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img class="logoimg" height="40px" src="images/comlogo.png"/></a>
+			</div>
+			<div class="navigation">
+			 <span class="menu"></span> 
+				<ul class="navig">
+					<li><a href="#about" class="scroll">关于我们</a><span> </span></li>
+					<li><a href="#tline" class="scroll">精品路线</a><span> </span></li>
+					<li><a href="#promotions" class="scroll">漫游亲子</a><span> </span></li>
+					<li><a href="#services" class="scroll">研学基地</a><span> </span></li>
+					<li><a href="#gallery" class="scroll">赛事旅行</a><span> </span></li>
+					<li><a href="#contact" class="scroll">联系我们</a><span> </span></li>
+				</ul>
+			</div>
+				 <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->
+		</div>
+	</div>
+	<!--header-end-->
+	<!--banner-starts-->
+	<div class="banner">
+		<div class="container">
+			<!--div class="banner-top">
+				<h2>Vivamus id orci mollis</h2>
+				<p>Donec porttitor viverra ligula, nec facilisis metus tristique eget. Nulla facilisi. Nulla porttitor eu massa quis pulvinar. Pellentesque lacinia, magna ut blandit hendrerit, lorem neque ornare diam, eu aliquet elit quam vel tellus.</p>				
+				<div class="video">
+					<img src="images/b1.jpg" alt="" />
+					<a class="play-icon popup-with-zoom-anim" href="#small-dialog5"><span> </span></a><br />										
+				</div>
+			</div-->
+		</div>
+	</div>
+	<!--banner-end-->
+	<!--video-->
+	<div id="small-dialog5" class="mfp-hide">
+		<iframe src="https://player.vimeo.com/video/127205608" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>			  
+	<!--fea-video-->
+	<!--bnr-starts-->
+	<div class="bnr">
+		<div class="col-md-3 bnr-left">
+			<h4>精品线路</h4>
+			<p>极力挖掘丰富旅游资源，竭力打造特色旅游线路，倾心描绘漫游旅游形象。</p>
+		</div>
+		<div class="col-md-3 bnr-left">
+			<h4>漫游亲子</h4>
+			<p>为0-13岁儿童提供家庭成长方案。从三尺书桌，到壮丽山河，从象牙白塔，到天涯有方。</p>
+		</div>
+		<div class="col-md-3 bnr-left">
+			<h4>研学基地</h4>
+			<p>教育不是把水灌满，而是把火点燃，最大的冒险是成长，最好课堂在路上。</p>
+		</div>
+		<div class="col-md-3 bnr-left">
+			<h4>赛事旅行</h4>
+			<p>全球国际赛事定制之行。运动和旅行的碰撞，自由和热烈的人生。</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!--bnr-end-->
+	<!--welcome-starts-->
+	<div class="welcome" id="about">
+		<div class="container">
+			<div class="welcome-top heading">
+				<h3>关于我们</h3>
+				<p>湖北漫游国际旅行社有限公司成立于2010年1月，专注于研学，亲子游，旅游定制的服务。</p>
+			</div>	
+			<div class="welcome-bottom">
+				<div class="col-md-6 welcome-left">
+					<div class="col-md-6 w-left">
+						<img src="images/w1.jpg" alt=""/>							
+					</div>
+					<div class="col-md-6 w-left">
+						<img src="images/w2.jpg" alt="" />
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="col-md-6 welcome-right">
+					<h4>湖北漫游国旅</h4>
+					<p>　隶属湖北广信科教集团，依托集团旗下景区、酒店、度假村、研学基地和棒球俱乐部等自有资源，借助集团在湖北境内乃至美国、肯尼亚、独联体、斐济、香港等国家和地区全资分、子公司的全方位国际战略布局优势，全力打造了一支热爱旅行、凝心聚力、年轻优秀的团队，可为不同需求的客户提供舒心、丰富、有活力的旅行体验和研学服务。</p>
+					<p>公司地址位于武汉市江夏区庙山经济开发区江夏大道16号（武昌理工学院行政楼），城铁庙山站步行3分钟即可到达。</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--welcome-end-->
+	<!--why-starts-->
+	<div class="why">
+		<div class="container">
+			<div class="why-top heading">
+				<h3>我们的优势</h3>
+			</div>
+			<div class="why-bottom">
+				<div class="col-md-4 why-left">
+					<div class="why-one">
+						<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+						<h4>大集团背景</h4>
+						<p align="left">　身处背后的湖北广信科教集团丰富的自有资源和雄厚的资金支持，使得我们的团队更具活力，我们的服务更有保障，我们的品质更受信耐。　　　　</p>
+					</div>
+				</div>
+				<div class="col-md-4 why-left">
+					<div class="why-one">
+						<span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>
+						<h4>丰富的经验</h4>
+						<p align="left">　近十年的专注，让我们磨练出了一支优秀的团队，还积累了丰富的行业经验。同时，秉承经验、谋思发展、不断创新，在互联网热潮中激流勇进着。</p>
+					</div>
+				</div>
+				<div class="col-md-4 why-left">
+					<div class="why-one">
+						<span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+						<h4>定制化服务</h4>
+						<p align="left">　根据不同客户的需求，我们能够借助自身优势和经验，为客户推荐和提供为其量身打造的定制化服务，以客户的满意为我们服务的宗旨。　　　　　</p>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--why-end-->
+	
+	<p>&nbsp;</p>
+		<!--tline-starts-->
+	<div class="gallery" id="tline">
+		<div class="gallery-top heading">
+			<h3>精品线路</h3>
+			<p>为消费者提供由北京、上海、武汉等近百个城市出发的旅游产品预订服务。并提供相应的出境签证服务。</p>
+		</div>	
+		<div class="gallery-bottom">	
+		<div class="sap_tabs">
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+				<ul class="resp-tabs-list">
+					<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>国内</span></li>
+					<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>国际</span></li>
+					<div class="clearfix"></div>
+				</ul>				  	 
+				<div class="resp-tabs-container">
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+						<div class="tab_img grid">
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gn1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn1.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>	
+							</div>
+							<div class="col-md-3 img-top ">
+								<a href="images/gn2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn2.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gn3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn3.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gn4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn4.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="tab_img grid">
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gn5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn5.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+								<a href="images/gn6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn6.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gn7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn7.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gn8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gn8.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>							
+					</div>
+					<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+					<div class="tab_img grid">
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gj1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj1.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+								<a href="images/gj2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj2.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gj3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj3.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gj4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj4.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>						
+						<div class="tab_img grid">
+							<div class="col-md-3 img-top">
+								<a href="images/gj5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj5.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gj6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj6.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>	
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gj7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj7.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>	
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/gj8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/gj8.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>	
+						<div class="clearfix"></div>							
+					</div>							
+                </div>
+			</div>
+		</div>
+        </div>
+	</div>
+	</div>
+	<!--gallery-end-->
+	
+		<!--top-starts-->
+	<div class="top" id="promotions">
+		<div class="container">
+			<div class="top-top heading">
+				<h3>漫游亲子</h3>
+				<p>&nbsp;</p>
+				<p>闲暇的休息日里，为您和您的家人享受天伦之乐，我们推出了[漫游亲子]微信公众号，为您推荐和提供游乐园门票和旅游线路的在线购买服务。</p>
+            <p>&nbsp;</p>
+            <p>
+            <img src="images/qr.png" border="3"  alt=""/>
+            </p>
+			</div>
+			<div class="top-bottom">
+				<div class="col-md-3 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t1.jpg" alt="">
+						<div class="captn">
+							<h4>漫游棒球俱乐部</h4>
+							<p>&nbsp;&nbsp;&nbsp;&nbsp;由前台湾职业棒球运动员-王俊朗先生亲自提供专业的指导。</p>
+						</div>
+					</a>
+					<div class="top-text">
+						<div class="t-left">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+							<p>江夏</p>
+						</div>
+						<div class="t-left t-right">
+							<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+							<p>扫码购</p>
+						</div>
+					</div>
+				</div>					
+				<div class="col-md-3 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t2.jpg" alt="">
+						<div class="captn">
+							<h4>巧虎欢乐岛</h4>
+							<p>巧虎欢乐岛除了探索小火车、冒险岛大滑梯、趣味岛的飞天彩巾等等，还有让宝贝们兴奋的巧虎品格剧，完全是粉丝狂欢会！</p>
+						</div>
+					</a>
+					<div class="top-text">
+						<div class="t-left">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+							<p>江岸</p>
+						</div>
+						<div class="t-left t-right">
+							<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+							<p>扫码购</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t3.jpg" alt="">
+						<div class="captn">
+							<h4>东湖海洋世界</h4>
+							<p>武汉东湖海洋世界由八个展区组成—热带雨林馆、海洋生物馆、长江鱼馆、海洋剧场、企鹅馆、科普电教馆、标本馆、精品馆等。</p>
+						</div>
+					</a>
+					<div class="top-text">
+						<div class="t-left">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+							<p>武昌</p>
+						</div>
+						<div class="t-left t-right">
+							<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+							<p>扫码购</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 top-left wow bounceIn animated" data-wow-delay=".5s" style="visibility: visible; -webkit-animation-delay: .5s;">
+					<a href="#">
+						<img class="img-responsive" src="images/t4.jpg" alt="">
+						<div class="captn">
+							<h4>维佳欢乐小镇</h4>
+							<p>维佳欢乐小镇集休闲，娱乐，美食等于一体的全功能游逛式乐园，满足家庭一站式游玩的所有需求。</p>
+						</div>
+					</a>
+					<div class="top-text">
+						<div class="t-left">
+							<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+							<p>南湖</p>
+						</div>
+						<div class="t-left t-right">
+							<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+							<p>扫码购</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+        </div>
+	</div>
+	<!--top-end-->
+	
+	
+	<!--services-starts-->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="services-top heading">
+				<h3>研学基地</h3>
+			</div>
+			<div class="services-bottom">
+				<div class="col-md-3 services-left">
+					<span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+					<h4>漫游基地</h4>
+					<p> 千人会场 团队活动 城铁直达</p>
+					<p> 依山傍水 梅南山下 汤逊湖畔</p>
+				</div>
+				<div class="col-md-6 services-middle">
+					<img src="images/s1.jpg" border="3"  alt=""/>
+				</div>
+				<div class="col-md-3 services-left">
+					<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+					<h4>基地预约</h4>
+					<p>请联系</p>
+					<p>电话：027-81652898</p>
+					<p>邮件：xhl@wut.edu.cn</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--services-end-->
+	<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.img-top a').Chocolat();
+		});
+		</script>
+	
+	<!--gallery-starts-->
+	<div class="gallery" id="gallery">
+		<div class="gallery-top heading">
+			<h3>赛事旅行</h3>
+			<p>或观赏，或参与，跟着赛事去旅行，为消费者带去更丰富而难忘的旅行体验。</p>
+			<p>&nbsp;</p>
+		</div>	
+		<div class="gallery-bottom">	
+		<div class="sap_tabs">
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;"> 	 
+				<div class="resp-tabs-container">
+						<div class="tab_img grid">
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/bs1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/bs1.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>	
+							</div>
+							<div class="col-md-3 img-top ">
+								<a href="images/bs2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/bs2.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/bs3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/bs3.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="col-md-3 img-top ">
+					   		  	<a href="images/bs4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+									<figure class="effect-apollo">				
+										<img src="images/bs4.jpg" alt="" />		
+										<figcaption>	
+										</figcaption>									
+									</figure>
+								</a>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+							<div class="clearfix"></div>
+						</div>							
+					</div>
+</div>
+		</div>
+        </div>
+	</div>
+	</div>
+	<!--gallery-end-->
+	<!--address-starts-->
+	<p>&nbsp;</p>
+	<div class="address" id="contact">
+		<div class="container">
+			<div class="address-top">
+				<div class="col-md-4 adrs-left">
+					<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+					<p><label>公司地址：</label>
+						湖北省武昌区中北路同成富苑A栋23层06号</p>
+				</div>
+				<div class="col-md-4 adrs-left">
+					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+					<p>027-81652898</p>
+				</div>
+				<div class="col-md-4 adrs-left">
+					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					<p><a href="mailto:xhl@wut.edu.cn">xhl@wut.edu.cn</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<p>&nbsp;</p>
+		<div align="center">
+		<div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+		</div>
+	</div>
+	<!--address-end-->
+
+	<!--footer-bottom-starts-->
+	<div class="f-bottom">
+		<div class="container">
+			<div class="footer-text">
+				<p>Copyright &copy; 2019.Company name All rights reserved.More Templates <a href="http://www.hbmygl.com/" target="_blank" title="湖北漫游国际旅行社">湖北漫游国际旅行社</a></p>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--footer-bottom-end-->
+</body>
+
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(114.347486,30.562102);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"漫游国旅",content:"湖北漫游国际旅行社",point:"114.348434|30.562219",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+</html>
